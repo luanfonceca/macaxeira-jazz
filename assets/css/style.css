@@ -1,0 +1,75 @@
+body {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-variant: normal;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+#brand .cover {
+  background-image: url('../images/band/cover.jpg');
+  background-size: cover;
+  height: 700px;
+}
+
+#brand #social-links a {
+  color: #000000;
+}
+
+#brand #social-links a:hover,
+#brand #social-links a:focus {
+  color: #A08670;
+  background-color: transparent !important;
+}
+
+#brand #social-links a i {
+  font-size: 2em;
+}
+
+.navbar-no-collapse {
+  display: block !important;
+}
+
+.navbar-no-collapse .navbar-nav>li,
+.navbar-no-collapse .navbar-nav {
+  float: left !important;
+}
+
+.navbar-no-collapse .navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-no-collapse .navbar-right {
+  float: right !important;
+}
+
+#brand .navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  /*bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;*/
+}
+
+#brand .navbar-inverse {
+  background-color: #000000;
+}
+
+#brand .navbar-brand,
+#brand .navbar-nav li a {
+  line-height: 65px;
+  height: 65px;
+  padding-top: 0;
+}
+
+#group {
+  background-color: #EEE4E1;
+}
+
+#music {
+  background-color: #A08670;
+  color: #FFFFFF;
+}
