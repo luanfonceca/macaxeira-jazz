@@ -11,7 +11,7 @@ body {
 #brand .cover {
   background-image: url('../images/band/cover.jpg');
   background-size: cover;
-  height: 700px;
+  height: calc(100vh - 65px);
 }
 
 #brand #social-links a {
@@ -69,7 +69,70 @@ body {
   background-color: #EEE4E1;
 }
 
+#group #schedule .table {
+  background-color: #FFFFFF;
+  font-size: 1.3em;
+}
+
+#group #schedule .btn {
+  font-size: 0.9em;
+}
+
+#group #schedule .btn-ticket {
+  background-color: #A08670;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+#group #schedule .btn-ticket:hover,
+#group #schedule .btn-ticket:focus {
+  background-color: #756150;
+}
+
 #music {
   background-color: #A08670;
   color: #FFFFFF;
+}
+
+#music img {
+  height: 400px;
+}
+
+#music .btn-group {
+  max-width: 400px;
+}
+
+#music .btn-group a {
+  font-size: 1.3em;
+}
+
+#music .btn-group a.btn-spotify {
+  background-color: #23CF5F;
+  color: #FFFFFF;
+}
+
+#music .btn-group a.btn-spotify:hover {
+  background-color: #15853C;
+}
+
+#music .btn-group a.btn-soundcloud {
+  background-color: #FF5500;
+  color: #FFFFFF;
+}
+
+#music .btn-group a.btn-soundcloud:hover {
+  background-color: #E04B00;
+}
+
+#videos {
+  background-color: #EEE4E1;
+}
+
+#press {
+  background-color: #A08670;
+  color: #FFFFFF;
+}
+
+#contact {
+  background-color: #EEE4E1;
 }
