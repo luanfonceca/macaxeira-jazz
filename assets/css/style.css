@@ -9,9 +9,8 @@ body {
 }
 
 #brand .cover {
-  background-image: url('../images/band/cover.jpg');
-  background-size: cover;
-  height: calc(100vh - 65px);
+  width: 100%;
+  height: auto;
 }
 
 #brand #social-links a {

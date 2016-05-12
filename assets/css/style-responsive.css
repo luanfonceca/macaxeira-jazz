@@ -92,8 +92,9 @@
   #brand .navbar .navbar-toggle {
     margin-top: 15px;
   }
-  #brand .navbar .navbar-collapse {
-    width: 100%;
+
+  .navbar-collapse {
+    width: 100% !important;
   }
 }
 
@@ -125,6 +126,18 @@ iPad 3
   /* Styles */
 }
 
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen  and (min-width: 1024px) {
+  #brand {
+    margin-bottom: -65px;
+  }
+
+  #brand .navbar {
+    top: -65px;
+  }
+}
+
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width: 1224px) {
   /* Styles */
@@ -134,3 +147,4 @@ iPad 3
 @media only screen  and (min-width: 1824px) {
   /* Styles */
 }
+
