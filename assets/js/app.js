@@ -22,4 +22,21 @@ $(document).ready(function() {
     }
 	}
 
+  $('#form-contact').submit(function(e) {
+    e.preventDefault();
+
+    $.ajax({
+      url: 'http://formspree.io/luanfonceca@gmail.com',
+      method: 'POST',
+      data: $(this).serialize(),
+      dataType: 'json',
+      success: function(data) {
+        $.simplyToast('Mensagem enviada!', 'success');
+      },
+      error: function(err) {
+        debugger;
+        $.simplyToast('Erro ao enviar mensagem!', 'danger');
+      }
+    });
+  });
 });
