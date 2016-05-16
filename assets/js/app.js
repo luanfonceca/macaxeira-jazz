@@ -23,6 +23,7 @@ $(document).ready(function() {
 	}
 
   $('#form-contact').submit(function(e) {
+    var form = $(this);
     e.preventDefault();
 
     $.ajax({
@@ -32,9 +33,9 @@ $(document).ready(function() {
       dataType: 'json',
       success: function(data) {
         $.simplyToast('Mensagem enviada!', 'success');
+        $(form).trigger("reset");
       },
       error: function(err) {
-        debugger;
         $.simplyToast('Erro ao enviar mensagem!', 'danger');
       }
     });
