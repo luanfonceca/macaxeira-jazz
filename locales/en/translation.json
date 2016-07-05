@@ -1,0 +1,72 @@
+{
+  "copyright": "Copyright © 2016 Macaxeira Jazz",
+  "download": "Download",
+  "soundcloud": "Soundcloud",
+  "spotify": "Spotify",
+  "nav": {
+    "group": "Group",
+    "music": "Music",
+    "videos": "Video",
+    "press": "Press",
+    "contact": "Contact"
+  },
+  "group": {
+    "title": "Group",
+    "description": {
+      "first_paragraph": "The Potiguar instrumental group Macaxeira Jazz shows that Brazilian music blends well with other rhythms. The Natal City Musicians have performed together since 2006 and now account for four international tours.",
+      "second_paragraph": "The quartet signed uniting classic rhythms - such as jazz, blues and rock - with choro, samba and baião. Diogo Guanabara (bandolin), Henrique Pacheco (bass), Raphael Bender (drums) and Ticiano D'Amore (guitar) have an extensive original work, but they also have outstanding characteristics as creativity and daring to reinterpretations of the great classics of music. The Beatles, Michael Jackson and Astor Piazzolla gain unusual versions, in typical Brazilian rhythms, that please the most demanding audiences in Brazil and abroad.",
+      "third_paragraph": "The first group's work record was the DVD Diogo Guanabara & Macaxeira live Jazz, released in 2008, also with the CD version. In 2009, they released the CD Capanga Moderna, only with original music. Also recorded an album of Beatles music reinterpretations (2010) and another honoring the choro produced in Rio Grande do Norte (2013), which perform music of João Juvanklin, Tico da Costa, Chico Elion and K-Ximbinho.",
+      "forth_paragraph": "Now the group is preparing for the recording of their second album with original songs."
+    }
+  },
+  "music": {
+    "title": "Music",
+    "tracks": "Tracks:",
+    "tocando-o-choro-potiguar": {
+      "title": "Tocando o choro potiguar - 2013",
+      "tracks": {
+        "track-1": "Sonoroso",
+        "track-2": "Conversa de bandolim",
+        "track-3": "Bico de galinha"
+      }
+    },
+    "capanga-moderna": {
+      "title": "Capanga Moderna - 2009",
+      "tracks": {
+        "track-1": "Tema pra baden",
+        "track-2": "Capanga moderna",
+        "track-3": "Nova Amsterdã",
+        "track-4": "Dança da chuva",
+        "track-5": "Tango maruko",
+        "track-6": "O lima",
+        "track-7": "Boa pergunta",
+        "track-8": "Frevo encaixotado",
+        "track-9": "Vai uma mariola ai?"
+      }
+    }
+  },
+  "videos": {
+    "title": "Video",
+    "description": "Check out our channel on youtube to see more videos by clicking ",
+    "click_here": "here"
+  },
+  "press": {
+    "title": "Press",
+    "kit": {
+      "description": "Download our press kit",
+      "download": "Download"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "get_in_touch": "Get in touch",
+    "form": {
+      "title": "Contact us",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "send_message": "Send message"
+    }
+  }
+}

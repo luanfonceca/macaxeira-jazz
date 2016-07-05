@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/simply-toast.min.css" />
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -19,9 +20,7 @@
 
   <body data-spy="scroll" data-target="#brand">
     <div id="brand">
-      <img class="cover" src='assets/images/band/cover-2.jpg' />
-
-      <nav class="navbar navbar-inverse" id="header">
+      <nav class="navbar" id="header">
         <div class="navbar-header">
           <a href="#header" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -29,15 +28,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="navbar-brand" href="#brand">Macaxeira Jazz</a>
+          <a class="navbar-brand" href="#brand"><img class="cover" src='assets/images/band/logo.svg' /></a>
         </div>
         <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-6">
           <ul class="nav navbar-nav">
-            <li><a href="#group">Grupo</a></li>
-            <li><a href="#music">Músicas</a></li>
-            <li><a href="#videos">Vídeos</a></li>
-            <li><a href="#press">Imprensa</a></li>
-            <li><a href="#contact">Contato</a></li>
+            <li><a href="#group" data-i18n="nav.group"></a></li>
+            <li><a href="#music" data-i18n="nav.music"></a></li>
+            <li><a href="#videos" data-i18n="nav.videos"></a></li>
+            <li><a href="#press" data-i18n="nav.press"></a></li>
+            <li><a href="#contact" data-i18n="nav.contact"></a></li>
           </ul>
         </div>
       </nav>
@@ -45,10 +44,9 @@
 
     <div id="group" class="section">
       <div class="container-fluid">
-        <h2>Grupo</h2>
+        <h2 data-i18n="group.title">Grupo</h2>
         <div class="row">
           <div class="col-lg-6 col-sm-12 pull-right">
-            <!--<h3 style="margin-top: 0;">Conheça a Macaxeira Jazz</h3>-->
             <div id="carousel-band" class="carousel slide" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
@@ -76,64 +74,18 @@
             </div>
           </div>
           <div class="col-lg-6 col-sm-12">
-            <p>
+            <p data-i18n="group.description.first_paragraph">
               O grupo instrumental potiguar Macaxeira Jazz mostra que a música brasileira combina muito bem com outros ritmos. Os músicos da cidade de Natal se apresentam juntos desde 2006 e já contabilizam quatro turnês internacionais.
             </p>
-            <p>
-              O quarteto firmou-se unindo ritmos estrangeiros clássicos – como jazz, blues e rock – com choro, samba e baião. Diogo Guanabara (bandolim), Henrique Pachêco (baixo), Raphael Bender (bateria) e Ticiano D’Amore (guitarra) têm um extenso trabalho autoral, mas eles também têm como características marcantes a criatividade e ousadia para fazer releituras de grandes clássicos da música. Nomes como Beatles, Michael Jackson e Astor Piazzola ganham versões inusitadas, em ritmos tipicamente brasileiros, que agradam às plateias mais exigentes no Brasil e no exterior.
+            <p data-i18n="group.description.second_paragraph">
+              O quarteto firmou-se unindo ritmos estrangeiros clássicos – como jazz, blues e rock – com choro, samba e baião. Diogo Guanabara (bandolim), Henrique Pachêco (baixo), Raphael Bender (bateria) e Ticiano D’Amore (guitarra) têm um extenso trabalho autoral, mas eles também têm como características marcantes a criatividade e ousadia para fazer releituras de grandes clássicos da música. Nomes como Beatles, Michael Jackson e Astor Piazzola ganham versões inusitadas, em ritmos tipicamente brasileiros, que agradam às plateias mais exigentes no Brasil e no exterior."
             </p>
-            <p>
-              O primeiro registro do trabalho do grupo foi o DVD Diogo Guanabara & Macaxeira Jazz ao vivo, lançado em 2008, também com a versão em CD. Em 2009, eles lançaram o CD Capanga Moderna, somente com músicas autorais. Gravaram também um álbum com releituras de músicas dos Beatles (2010) e outro homenageando o choro produzido no Rio Grande do Norte (2013), no qual executam músicas de João Juvanklin, Tico da Costa, Chico Elion e K-Ximbinho.
+            <p data-i18n="group.description.third_paragraph">
+              O primeiro registro do trabalho do grupo foi o DVD Diogo Guanabara & Macaxeira Jazz ao vivo, lançado em 2008, também com a versão em CD. Em 2009, eles lançaram o CD Capanga Moderna, somente com músicas autorais. Gravaram também um álbum com releituras de músicas dos Beatles (2010) e outro homenageando o choro produzido no Rio Grande do Norte (2013), no qual executam músicas de João Juvanklin, Tico da Costa, Chico Elion e K-Ximbinho."
             </p>
-            <p>
+            <p data-i18n="group.description.forth_paragraph">
               Agora o grupo se prepara para a gravação do seu segundo trabalho com músicas próprias.
             </p>
-            <div class="row" id="schedule">
-              <div class="col-xs-12 table-responsive">
-                <h3>Agenda de shows</h3>
-                <table class="table table-condensed">
-                  <thead>
-                    <tr>
-                      <th>Data</th>
-                      <th class="text-center">Local</th>
-                      <th class="text-right">Participar</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>07/06</td>
-                      <td class="text-center">Sed ut perspiciatis unde omnis</td>
-                      <td class="text-right">
-                        <a href="#" class="btn btn-hover btn-ticket">
-                          <i class="fa fa-fw fa-ticket"></i>
-                          Ingressos
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>18/06</td>
-                      <td class="text-center">Inventore veritatis et quasi</td>
-                      <td class="text-right">
-                        <a href="#" class="btn btn-hover btn btn-primary">
-                          <i class="fa fa-fw fa-facebook"></i>
-                          Facebook
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>27/07</td>
-                      <td class="text-center">Aspernatur aut odit aut fugit</td>
-                      <td class="text-right">
-                        <a href="#" class="btn btn-hover btn-ticket">
-                          <i class="fa fa-fw fa-ticket"></i>
-                          Ingressos
-                        </a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div> 
-            </div>
           </div> 
         </div>
       </div>
@@ -141,65 +93,89 @@
 
     <div id="music" class="section">
       <div class="container-fluid">
-        <h2>Músicas</h2>
+        <h2 data-i18n="music.title">Músicas</h2>
         <div class="row">
           <div class="col-lg-6 col-sm-6 col-xs-12">
             <img class="img-responsive" src="assets/images/cds/tocando-o-choro-potiguar.png" alt="Sonoroso">
-            <h4>Tocando o choro potiguar - 2013</h4>
+            <h4 data-i18n="music.tocando-o-choro-potiguar.title">Tocando o choro potiguar - 2013</h4>
             <div class="btn-group btn-group-justified" role="group" aria-label="...">
               <div class="btn-group" role="group">
                 <a href="#" class="btn btn-primary">
                   <i class="fa fa-download"></i>
-                  Download
+                  <span data-i18n="download"></span>
                 </a>
               </div>
               <div class="btn-group" role="group">
                 <a class="btn btn-inverse btn-soundcloud" href="https://soundcloud.com/macaxeirajazz" target="_blank">
                   <i class="fa fa-soundcloud"></i>
-                  Soundcloud
+                  <span data-i18n="soundcloud"></span>
                 </a>
               </div>
             </div>
             <br>
             <p>
-              Faixas:
+              <span data-i18n="music.tracks">Faixas:</span>
               <ol>
-                <li>Sonoroso</li>
-                <li>Conversa de bandolim</li>
-                <li>Bico de galinha</li>
+                <li data-i18n="music.tocando-o-choro-potiguar.tracks.track-1">
+                  Sonoroso
+                </li>
+                <li data-i18n="music.tocando-o-choro-potiguar.tracks.track-2">
+                  Conversa de bandolim
+                </li>
+                <li data-i18n="music.tocando-o-choro-potiguar.tracks.track-3">
+                  Bico de galinha
+                </li>
               </ol>
             </p>
           </div>
           <div class="col-lg-6 col-sm-6 col-xs-12">
             <img style="height: 400px" class="img-responsive" src="assets/images/cds/capanga-moderna.png" alt="Capanga Moderna - 2009">
-            <h4>Capanga Moderna - 2009</h4>
+            <h4 data-i18n="music.capanga-moderna.title">Capanga Moderna - 2009</h4>
             <div class="btn-group btn-group-justified" role="group" aria-label="...">
               <div class="btn-group" role="group">
                 <a href="#" class="btn btn-primary">
                   <i class="fa fa-download"></i>
-                  Download
+                  <span data-i18n="download"></span>
                 </a>
               </div>
               <div class="btn-group" role="group">
                 <a class="btn btn-inverse btn-spotify" href="spotify:album:3hRnxuxRVe3e95N7h1Vmn3" target="_blank">
                   <i class="fa fa-spotify"></i>
-                  Spotify
+                  <span data-i18n="spotify"></span>
                 </a>
               </div>
             </div>
             <br>
             <p>
-              Faixas:
+              <span data-i18n="music.tracks">Faixas:</span>
               <ol>
-                <li>Tema pra baden</li>
-                <li>Capanga moderna</li>
-                <li>Nova Amsterdã</li>
-                <li>Dança da chuva</li>
-                <li>Tango maruko</li>
-                <li>O lima</li>
-                <li>Boa pergunta</li>
-                <li>Frevo encaixotado</li>
-                <li>Vai uma mariola ai?</li>
+                <li data-i18n="music.capanga-moderna.tracks.track-1">
+                  Tema pra baden
+                </li>
+                <li data-i18n="music.capanga-moderna.tracks.track-2">
+                  Capanga moderna
+                </li>
+                <li data-i18n="music.capanga-moderna.tracks.track-3">
+                  Nova Amsterdã
+                </li>
+                <li data-i18n="music.capanga-moderna.tracks.track-4">
+                  Dança da chuva
+                </li>
+                <li data-i18n="music.capanga-moderna.tracks.track-5">
+                  Tango maruko
+                </li>
+                <li data-i18n="music.capanga-moderna.tracks.track-6">
+                  O lima
+                </li>
+                <li data-i18n="music.capanga-moderna.tracks.track-7">
+                  Boa pergunta
+                </li>
+                <li data-i18n="music.capanga-moderna.tracks.track-8">
+                  Frevo encaixotado
+                </li>
+                <li data-i18n="music.capanga-moderna.tracks.track-9">
+                  Vai uma mariola ai?
+                </li>
               </ol>
             </p>
           </div>
@@ -209,9 +185,10 @@
 
     <div id="videos" class="section">
       <div class="container-fluid">
-        <h2>Vídeos</h2>
+        <h2 data-i18n="videos.title">Vídeos</h2>
         <p>
-          Acesse o nosso canal no youtube para mais vídeos clicando <a href="https:/www.youtube.com/channel/UCLYA40wtRhTJjLS-UHqqBjQ" target="_blank">aqui</a>.
+          <span data-i18n="videos.description">Acesse o nosso canal no youtube para mais vídeos clicando </span>
+          <a href="https:/www.youtube.com/channel/UCLYA40wtRhTJjLS-UHqqBjQ" target="_blank" data-i18n="videos.click_here">aqui</a>.
         </p>
         <div class="row">
           <div class="col-xs-12 col-sm-3">
@@ -232,20 +209,22 @@
 
     <div id="press" class="section">
       <div class="container-fluid">
-        <h2>Imprensa</h2>
+        <h2 data-i18n="press.title">Imprensa</h2>
         <div class="row">
           <div class="col-xs-12 col-sm-6">
-            <h3>Baixe o nosso presskit</h3>
-            <a href="#" class="btn btn-hover btn btn-primary" style="font-size: 1.3em">
+            <h3 data-i18n="press.kit.description"></h3>
+            <a href="https://www.dropbox.com/s/qmocfrco2t0d28o/Fluffbeast.docx?dl=1" class="btn btn-hover btn btn-primary" style="font-size: 1.3em">
               <i class="fa fa-fw fa-send"></i>
-              Baixar
+              <span data-i18n="press.kit.download"></span>
             </a>
           </div>
             
           <div class="col-xs-12 col-sm-6">
-            <h3>Contato</h3>
-            Henrique Pacheco - (84) 9 8852-9860<br>
-            contato@macaxeirajazz.com
+            <h3 data-i18n="press.contact.title">Contato</h3>
+            <span data-i18n="press.contact.name">
+              Henrique Pacheco - (84) 9 8852-9860
+            </span><br>
+            <span data-i18n="press.contact.email">contato@macaxeirajazz.com</span>
           </div>
         </div>
       </div>
@@ -253,10 +232,10 @@
 
     <div id="contact" class="section">
       <div class="container-fluid">
-        <h2>Contato</h2>
+        <h2 data-i18n="contact.title">Contato</h2>
         <div class="row">
           <div class="col-sm-6">
-            <h3>Fale conosco</h3>
+            <h3 data-i18n="contact.get_in_touch">Fale conosco</h3>
             <ul class="fa-ul" style="margin-left: 0;">
               <li>
                 <i class="fa fa-fw fa-phone"></i>
@@ -300,27 +279,27 @@
           </div>
           <div class="col-sm-6">
             <form id="form-contact" class="form-vertical" method="POST">
-              <h3>Entre em contato conosco</h3>
+              <h3 data-i18n="contact.form.title">Entre em contato conosco</h3>
               <div class="form-feedback hide"></div>
               <div class="row">
                 <div class="col-md-6 col-lg-6">
                   <div class="form-group">
-                    <label for="id_name">Nome</label>
-                    <input type="text" class="form-control" name="name" id="id_name" placeholder="Nome" required="required">
+                    <label for="id_name" data-i18n="contact.form.name">Nome</label>
+                    <input type="text" class="form-control" name="name" id="id_name" data-i18n="[placeholder]contact.form.name" placeholder="Nome" required="required">
                   </div>
                   <div class="form-group">
-                    <label for="id_phone">Teleone</label>
-                    <input type="text" class="form-control" name="phone" id="id_phone" placeholder="Telefone" required="required">
+                    <label for="id_phone" data-i18n="contact.form.phone">Teleone</label>
+                    <input type="text" class="form-control" name="phone" id="id_phone" data-i18n="[placeholder]contact.form.phone" placeholder="Telefone" required="required">
                   </div>
                   <div class="form-group">
-                    <label for="id_email">Email</label>
-                    <input type="email" class="form-control" name="email" id="id_email" placeholder="Email" required="required">
+                    <label for="id_email" data-i18n="contact.form.email">Email</label>
+                    <input type="email" class="form-control" name="email" id="id_email" data-i18n="[placeholder]contact.form.email" placeholder="Email" required="required">
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-6">
                   <div class="form-group">
-                    <label for="id_message">Mensagem</label>
-                    <textarea class="form-control" rows="8" name="message" id="id_message" placeholder="Sua mensagem" required="required"></textarea>
+                    <label for="id_message" data-i18n="contact.form.message">Mensagem</label>
+                    <textarea class="form-control" rows="8" name="message" id="id_message" data-i18n="[placeholder]contact.form.message" required="required"></textarea>
                   </div>
                 </div>
               </div>
@@ -329,7 +308,7 @@
                 <input type="hidden" name="_subject" value="Contato através do Site" />
                 <button type="submit" class="btn btn-hover btn btn-primary" style="font-size: 1.3em">
                   <i class="fa fa-fw fa-send"></i>
-                  Enviar a mensagem
+                  <span data-i18n="contact.form.send_message">Enviar a mensagem</span>
                 </button>
               </div>
             </form>
@@ -339,17 +318,22 @@
     </div>
 
     <footer class="text-center" style="color: #FFFFFF; background-color: #000000;padding: 10px;">
-      <h5>Copyright © 2016 Macaxeira Jazz</h5>
+      <h5 data-i18n="copyright">Copyright © 2016 Macaxeira Jazz</h5>
     </footer>
 
     <!-- Scripts -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/simply-toast.min.js"></script>
+
+    <!-- i18next plugins -->
+    <script type="text/javascript" src="assets/js/i18next.js"></script>
+    <script type="text/javascript" src="assets/js/i18nextXHRBackend.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-i18next.js"></script>
 
     <script type="text/javascript" src="assets/js/app.js"></script>
   </body>

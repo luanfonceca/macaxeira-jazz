@@ -40,4 +40,22 @@ $(document).ready(function() {
       }
     });
   });
+
+  var i18n_options = {
+    lng: 'pt_BR',
+    whitelist: ['pt_BR', 'en'],
+    fallbackLng: ['en'],
+    debug: true,
+    returnObjects: true,
+  }
+
+  i18next.use(i18nextXHRBackend);
+  i18next.init(i18n_options, function() {
+    jqueryI18next.init(i18next, $);
+    $('body').localize();
+  });
+
+  // i18next.changeLanguage('en', function(err, t) {
+  //   $('body').localize();
+  // });
 });

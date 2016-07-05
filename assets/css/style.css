@@ -19,7 +19,7 @@ body {
 
 #brand #social-links a:hover,
 #brand #social-links a:focus {
-  color: #A08670;
+  color: #E85E00;
   background-color: transparent !important;
 }
 
@@ -46,15 +46,11 @@ body {
 
 #brand .navbar {
   margin-bottom: 0;
-  border-radius: 0;
+  border: 0;
   /*bottom: 0;
   left: 0;
   position: fixed;
   width: 100%;*/
-}
-
-#brand .navbar-inverse {
-  background-color: #000000;
 }
 
 #brand .navbar-brand,
@@ -62,35 +58,21 @@ body {
   line-height: 65px;
   height: 65px;
   padding-top: 0;
+  color: #000;
+}
+
+#brand .navbar-nav li a:hover {
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
 #group {
-  background-color: #EEE4E1;
-}
-
-#group #schedule .table {
-  background-color: #FFFFFF;
-  font-size: 1.3em;
-}
-
-#group #schedule .btn {
-  font-size: 0.9em;
-}
-
-#group #schedule .btn-ticket {
-  background-color: #A08670;
+  background-color: #E85E00;
   color: #FFFFFF;
-  border-color: #FFFFFF;
-}
-
-#group #schedule .btn-ticket:hover,
-#group #schedule .btn-ticket:focus {
-  background-color: #756150;
 }
 
 #music {
-  background-color: #A08670;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 #music img {
@@ -124,14 +106,15 @@ body {
 }
 
 #videos {
-  background-color: #EEE4E1;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 #press {
-  background-color: #A08670;
+  background-color: #E85E00;
   color: #FFFFFF;
 }
 
 #contact {
-  background-color: #EEE4E1;
+  background-color: #FFFFFF;
 }
