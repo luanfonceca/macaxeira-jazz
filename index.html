@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style-responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/flags16.css" />
   </head>
 
   <body data-spy="scroll" data-target="#brand">
@@ -40,6 +41,20 @@
               <li><a href="#videos" data-i18n="nav.videos">Vídeos</a></li>
               <li><a href="#press" data-i18n="nav.press">Imprensa</a></li>
               <li><a href="#contact" data-i18n="nav.contact">Contato</a></li>
+              <li class="flags dropup f16">
+                <a id="languages" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span class="flag br"></span>
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="languages" style=";right: 0; left: auto;">
+                  <li>
+                    <a href="javascript:;" data-language="pt_BR"><span class="flag br"></span> Português</a>
+                  </li>
+                  <li>
+                    <a href="javascript:;" data-language="en"><span class="flag us"></span> Inglês</a>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
         </nav>
@@ -224,8 +239,8 @@
           </div>
             
           <div class="col-xs-12 col-sm-6">
-            <h3 data-i18n="press.contact.title">Contato</h3>
-            <span data-i18n="press.contact.name">
+            <h3 data-i18n="press.contact">Contato</h3>
+            <span>
               Henrique Pacheco - (84) 9 8852-9860
             </span><br>
             <span data-i18n="press.contact.email">contato@macaxeirajazz.com</span>
@@ -322,7 +337,7 @@
     </div>
 
     <footer class="text-center" style="color: #FFFFFF; background-color: #000000;padding: 10px;">
-      <h5 data-i18n="copyright">Copyright © 2016 Macaxeira Jazz</h5>
+      <h5 data-i18n="copyright">Todos os direitos reservados © 2016 Macaxeira Jazz</h5>
     </footer>
 
     <!-- Scripts -->
