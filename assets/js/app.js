@@ -58,4 +58,10 @@ $(document).ready(function() {
   // i18next.changeLanguage('en', function(err, t) {
   //   $('body').localize();
   // });
+
+  $('#header').affix({
+    offset: {
+      top: $('.cover').height() - 65
+    }
+  });
 });

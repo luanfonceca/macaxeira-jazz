@@ -133,7 +133,7 @@ iPad 3
     margin-bottom: -65px;
   }
 
-  #brand .navbar {
+  #brand .navbar:not(.affix) {
     top: -65px;
   }
 }
