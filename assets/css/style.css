@@ -47,6 +47,8 @@ body {
 #brand .navbar {
   margin-bottom: 0;
   border: 0;
+  background-color: #FFFFFF;
+  border-radius: 0;
   /*bottom: 0;
   left: 0;
   position: fixed;
