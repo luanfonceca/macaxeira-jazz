@@ -47,6 +47,7 @@ $(document).ready(function() {
     fallbackLng: ['en'],
     debug: true,
     returnObjects: true,
+    resGetPath: "/macaxeira-jazz/__lng__/__ns__.json",
   }
 
   i18next.use(i18nextXHRBackend);
