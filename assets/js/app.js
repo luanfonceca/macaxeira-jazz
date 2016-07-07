@@ -46,11 +46,13 @@ $(document).ready(function() {
     whitelist: ['pt_BR', 'en'],
     fallbackLng: ['en'],
     debug: true,
-    returnObjects: true,
-    resGetPath: "/macaxeira-jazz/__lng__/__ns__.json",
+    returnObjects: true
   }
 
-  i18next.use(i18nextXHRBackend);
+  var customXHRBackend = new i18nextXHRBackend();
+  customXHRBackend.options.loadPath = "locales/{{lng}}/{{ns}}.json";
+
+  i18next.use(customXHRBackend);
   i18next.init(i18n_options, function() {
     jqueryI18next.init(i18next, $);
     $('body').localize();
