@@ -14,15 +14,7 @@
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 480px) {
-  #brand .cover {
-    height: 250px;
-  }
-
-  #brand #social-links a i {
-    font-size: 1.5em;
-  }
-}
+@media only screen and (max-width: 480px) {}
 
 /* iPhone 4 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
@@ -89,8 +81,13 @@
 
 /* Bootstrap breakpoint ----------- */
 @media only screen and (max-width: 768px) {
+  #brand .navbar-nav li a {
+    line-height: 55px;
+    height: 55px;
+  }
+
   #brand .navbar .navbar-toggle {
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   .navbar-collapse {
@@ -130,11 +127,11 @@ iPad 3
 /* iPads (portrait and landscape) ----------- */
 @media only screen  and (min-width: 1024px) {
   #brand {
-    margin-bottom: -65px;
+    margin-bottom: -85px;
   }
 
   #brand .navbar:not(.affix) {
-    top: -65px;
+    top: -85px;
   }
 }
 

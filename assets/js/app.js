@@ -61,12 +61,16 @@ $(document).ready(function() {
 
   $('#header').affix({
     offset: {
-      top: $('.cover').height() - 65
+      top: $('.cover').height() - 85
     }
   }).on('affix.bs.affix', function() {
     toggleCaret('dropup', 'dropdown');
   }).on('affix-top.bs.affix', function() {
     toggleCaret('dropdown', 'dropup');
+  });
+
+  $(".navbar-collapse").on('click', 'a:not(.dropdown-toggle)', null, function () {
+    $(".navbar-collapse").collapse('hide');
   });
 
   if ($('#header').hasClass('affix')) {

@@ -8,7 +8,11 @@
     "music": "Músicas",
     "videos": "Vídeos",
     "press": "Imprensa",
-    "contact": "Contato"
+    "contact": "Contato",
+    "languages": {
+      "portuguese": "Português",
+      "english": "Inglês"
+    }
   },
   "group": {
     "title": "Grupo",
