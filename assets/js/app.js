@@ -51,6 +51,7 @@ $(document).ready(function() {
 
   var customXHRBackend = new i18nextXHRBackend();
   customXHRBackend.options.loadPath = "locales/{{lng}}/{{ns}}.json";
+  customXHRBackend.options.addPath = "locales/{{lng}}/{{ns}}.json";
 
   i18next.use(customXHRBackend);
   i18next.init(i18n_options, function() {
