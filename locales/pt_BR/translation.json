@@ -29,7 +29,6 @@
     "tocando-o-choro-potiguar": {
       "title": "Tocando o choro potiguar - 2013",
       "tracks": {
-        "title": "Faixas:",
         "track-1": "Bico de Galinha",
         "track-2": "Chuva De Recuada",
         "track-3": "Ternura",
@@ -44,16 +43,15 @@
     "capanga-moderna": {
       "title": "Capanga Moderna - 2009",
       "tracks": {
-        "title": "Faixas:",
-        "track-1": "Tema pra baden",
-        "track-2": "Capanga moderna",
-        "track-3": "Nova Amsterdã",
-        "track-4": "Dança da chuva",
-        "track-5": "Tango maruko",
-        "track-6": "O lima",
-        "track-7": "Boa pergunta",
-        "track-8": "Frevo encaixotado",
-        "track-9": "Vai uma mariola ai?"
+        "track-1": "Tema pra Baden",
+        "track-2": "Capanga Moderna",
+        "track-3": "Nova Amsterdam",
+        "track-4": "Dança da Chuva",
+        "track-5": "Tango Maruko",
+        "track-6": "O Lima",
+        "track-7": "Boa Pergunta",
+        "track-8": "Frevo Encaixotado",
+        "track-9": "Vai Uma Mariola Ai?"
       }
     }
   },
