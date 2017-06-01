@@ -26,6 +26,19 @@
   "music": {
     "title": "Music",
     "tracks": "Tracks:",
+    "cria": {
+      "title": "Cria - 2017",
+      "tracks": {
+        "track-1": "O Abraço do Potó",
+        "track-2": "Macambira",
+        "track-3": "Sombra e Água Fresca",
+        "track-4": "Frevo relaxadão",
+        "track-5": "Xô Coruja",
+        "track-6": "Notícias do Japão",
+        "track-7": "Samba pra Ciço",
+        "track-8": "Intro Song",
+      }
+    },
     "tocando-o-choro-potiguar": {
       "title": "Tocando o choro potiguar - 2013",
       "tracks": {

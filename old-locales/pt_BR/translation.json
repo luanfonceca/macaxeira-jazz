@@ -20,12 +20,25 @@
       "first_paragraph": "O grupo instrumental potiguar Macaxeira Jazz mostra que a música brasileira combina muito bem com outros ritmos. Os músicos da cidade de Natal se apresentam juntos desde 2006 e já contabilizam quatro turnês internacionais.",
       "second_paragraph": "O quarteto firmou-se unindo ritmos estrangeiros clássicos – como jazz, blues e rock – com choro, samba e baião. Diogo Guanabara (bandolim), Henrique Pachêco (baixo), Raphael Bender (bateria) e Ticiano D’Amore (guitarra) têm um extenso trabalho autoral, mas eles também têm como características marcantes a criatividade e ousadia para fazer releituras de grandes clássicos da música. Nomes como Beatles, Michael Jackson e Astor Piazzola ganham versões inusitadas, em ritmos tipicamente brasileiros, que agradam às plateias mais exigentes no Brasil e no exterior.",
       "third_paragraph": "O primeiro registro do trabalho do grupo foi o DVD Diogo Guanabara & Macaxeira Jazz ao vivo, lançado em 2008, também com a versão em CD. Em 2009, eles lançaram o CD Capanga Moderna, somente com músicas autorais. Gravaram também um álbum com releituras de músicas dos Beatles (2010) e outro homenageando o choro produzido no Rio Grande do Norte (2013), no qual executam músicas de João Juvanklin, Tico da Costa, Chico Elion e K-Ximbinho.",
-      "forth_paragraph": "Agora o grupo se prepara para a gravação do seu segundo trabalho com músicas próprias."
+      "forth_paragraph": "Em 2017, o grupo lança \"Cria\", seu segundo trabalho com músicas próprias. Gravado entre setembro e dezembro de 2016, em Natal/RN, o álbum recebeu esse nome pelo fato de que quase todos os integrantes tiveram filhos recentemente, o que influenciou profundamente no processo de criação das músicas."
     }
   },
   "music": {
     "title": "Músicas",
     "tracks": "Faixas:",
+    "cria": {
+      "title": "Cria - 2017",
+      "tracks": {
+        "track-1": "O Abraço do Potó",
+        "track-2": "Macambira",
+        "track-3": "Sombra e Água Fresca",
+        "track-4": "Frevo relaxadão",
+        "track-5": "Xô Coruja",
+        "track-6": "Notícias do Japão",
+        "track-7": "Samba pra Ciço",
+        "track-8": "Intro Song",
+      }
+    },
     "tocando-o-choro-potiguar": {
       "title": "Tocando o choro potiguar - 2013",
       "tracks": {

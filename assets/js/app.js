@@ -41,8 +41,10 @@ $(document).ready(function() {
     });
   });
 
-  var customXHRBackend = new i18nextXHRBackend();
-  customXHRBackend.options.loadPath = "locales/{{lng}}/{{ns}}.json";
+  var customXHRBackend = new i18nextXHRBackend(null, {
+    loadPath: 'https://raw.githubusercontent.com/luanfonceca/macaxeira-jazz/gh-pages/locales/{{lng}}/{{ns}}.json',
+    crossDomain: true,
+  });
   i18next.use(customXHRBackend);
 
   var i18n_options = {
