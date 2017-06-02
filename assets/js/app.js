@@ -42,7 +42,7 @@ $(document).ready(function() {
   });
 
   var customXHRBackend = new i18nextXHRBackend(null, {
-    loadPath: 'https://raw.githubusercontent.com/luanfonceca/macaxeira-jazz/gh-pages/locales/{{lng}}/{{ns}}.json',
+    loadPath: 'https://raw.githubusercontent.com/luanfonceca/macaxeira-jazz/gh-pages/old-locales/{{lng}}/translation.json',
     crossDomain: true,
   });
   i18next.use(customXHRBackend);
