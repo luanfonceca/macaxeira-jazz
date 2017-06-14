@@ -92,11 +92,15 @@ body {
 }
 
 #music img {
-  height: 400px;
+  height: 600px;
 }
 
 #music .btn-group {
-  max-width: 400px;
+  max-width: 600px;
+}
+
+#music ul {
+  list-style-type: none;
 }
 
 #music .btn-group a {
