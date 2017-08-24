@@ -46,6 +46,7 @@
       "guitar": "Violão",
       "drums": "Bateria",
       "tenor-guitar-and-nylon-guitar": "Violão Tenor e Violão de Nylon",
+      "nylon-guitar": "Violão de Nylon",
       "tambourine": "Pandeiro",
       "tenor-guitar": "Violão Tenor",
       "voice": "Voz"
@@ -107,6 +108,7 @@
   },
   "contact": {
     "title": "Contato",
+    "and": "E",
     "get_in_touch": "Fale conosco",
     "form": {
       "title": "Entre em contato conosco",
