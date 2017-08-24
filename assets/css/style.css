@@ -23,6 +23,15 @@ body {
   position: relative;
 }
 
+.image {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100%;
+}
+.image img {
+  position: absolute;
+}
+
 .navbar-toggle {
   border-color: #000;
 }
