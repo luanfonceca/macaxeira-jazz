@@ -28,6 +28,7 @@ body {
   overflow: hidden;
   padding-bottom: 100%;
 }
+
 .image img {
   position: absolute;
 }
