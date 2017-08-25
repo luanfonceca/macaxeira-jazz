@@ -4,6 +4,13 @@ body {
   font-variant: normal;
 }
 
+footer {
+  color: #FFFFFF;
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
 .section {
   margin-top: -85px;
   padding: 85px 0;

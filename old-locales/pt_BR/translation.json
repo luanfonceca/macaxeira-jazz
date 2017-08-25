@@ -1,5 +1,5 @@
 {
-  "copyright": "Todos os direitos reservados © 2016 Macaxeira Jazz",
+  "copyright": "Todos os direitos reservados © 2017 Macaxeira Jazz",
   "download": "Download",
   "soundcloud": "Soundcloud",
   "spotify": "Spotify",
@@ -109,9 +109,7 @@
   "contact": {
     "title": "Contato",
     "and": "E",
-    "get_in_touch": "Fale conosco",
     "form": {
-      "title": "Entre em contato conosco",
       "name": "Nome",
       "phone": "Telefone",
       "email": "Email",
